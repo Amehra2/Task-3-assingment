@@ -40,6 +40,10 @@ function MedicalTreatmentPanel() {
 function clearClickHandler () {
     setTreatId('');
     setTreatCourseId('');
+    setType('');
+    setCategory('');
+    setName('');
+    setStartDate('');
 
 }
 
@@ -75,9 +79,12 @@ function clearClickHandler () {
       <button style={{color:"red"}} onClick={clearClickHandler}>Clear</button>
         <h1> 
           
-          {treatCourseId}
           {treatId}
+          {treatCourseId}
+          {type}
+          {category}
           {name}
+          {startDate}
     
           </h1> 
         </div>
