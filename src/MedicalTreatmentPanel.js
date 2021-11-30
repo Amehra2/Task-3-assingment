@@ -34,14 +34,12 @@ function MedicalTreatmentPanel() {
     if(display === "hello"){
       return(
       <h1> 
-
-<li>{treatId}</li>
-<li>{treatCourseId}</li>
-<li>{type}</li>
-<li>{category}</li>
-<li>{name}</li>
-<li>{startDate}</li>
-
+{treatId + " "}
+{treatCourseId+ " "}
+{type+ " "}
+{category+ " "}
+{name+ " "}
+{startDate+ " "}
 
       </h1> 
       )
