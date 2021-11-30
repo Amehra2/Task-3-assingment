@@ -7,8 +7,8 @@ export default function App() {
 
  
     <div>
-          <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg"/>
-      <h1> My name Hospital </h1>
+  
+      <h1> LHM Hospital</h1>
       
       <MedicalTreatmentPanel/>
  
