@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-
-
 function MedicalTreatmentPanel() {
 
 
@@ -29,7 +26,6 @@ function MedicalTreatmentPanel() {
   const handleDisplay = e => setDisplay("any string of data")
   
 
-
   function ShowClickHandler () {
     if(display === "any string of data"){
       return(
@@ -45,13 +41,8 @@ function MedicalTreatmentPanel() {
       )
     }
     return null;
-
-  
-      
-   
    
 }
-
 
 function clearClickHandler () {
     setTreatId('');
@@ -63,9 +54,6 @@ function clearClickHandler () {
     setDisplay();
 
 }
-
-
-
 
   return(
     <div>
@@ -91,7 +79,7 @@ function clearClickHandler () {
 
         <input placeholder="startDate" value={startDate}  onChange = {handleStartDatechange}  ></input>
 
-        <button style={{color:"blue"}} onClick={handleDisplay}>show</button>
+        <button style={{color:"green"}} onClick={handleDisplay}>show</button>
 
       <button style={{color:"red"}} onClick={clearClickHandler}>Clear</button>
       < ShowClickHandler />
@@ -100,7 +88,5 @@ function clearClickHandler () {
     );
 
   }
-
-
   
   export default MedicalTreatmentPanel;
