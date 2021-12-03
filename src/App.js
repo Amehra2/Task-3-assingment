@@ -7,10 +7,8 @@ export default function App() {
 
  
     <div>
-  
-      <h1> LHM Hospital</h1>
       
-      <MedicalTreatmentPanel/>
+    <MedicalTreatmentPanel/>
  
     </div>
   );

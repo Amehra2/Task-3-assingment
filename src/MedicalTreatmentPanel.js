@@ -26,12 +26,12 @@ function MedicalTreatmentPanel() {
   const handleCategoryChange = e => setCategory(e.target.value)
   const handleNameChange = e => setName(e.target.value)
   const handleStartDatechange = e => setStartDate(e.target.value)
-  const handleDisplay = e => setDisplay("hello")
+  const handleDisplay = e => setDisplay("any string of data")
   
 
 
   function ShowClickHandler () {
-    if(display === "hello"){
+    if(display === "any string of data"){
       return(
       <h1> 
 {treatId + " "}
